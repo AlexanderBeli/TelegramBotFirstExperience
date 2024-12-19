@@ -6,4 +6,4 @@ __pycache__/
 .DS_Store
 
 # Specific files
-config.py
+.env

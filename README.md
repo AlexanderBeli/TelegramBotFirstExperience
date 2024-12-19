@@ -22,7 +22,7 @@ $ cd TelegramBotFirstExperience
 ```commandline
 $ pip install -r requirements.txt
 ```
-Создать свой файл config.py
+Создать свой файл .env
 
 Задать в нем переменную TOKEN.
 

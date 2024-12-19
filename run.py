@@ -1,12 +1,14 @@
+import os
 import asyncio
 import logging
 
+from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
 
 from app.handlers import router
-from config import TOKEN
 
-bot = Bot(token=TOKEN)
+load_dotenv()
+bot = Bot(token=os.getenv('TOKEN'))
 dp = Dispatcher()
 
 
@@ -20,5 +22,5 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
     try:
         asyncio.run(main())
-    except KeyboardInterrupt as err:
+    except KeyboardInterrupt:
         print("Exit")
