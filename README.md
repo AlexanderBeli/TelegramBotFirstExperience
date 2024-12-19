@@ -16,7 +16,7 @@ $ git clone https://github.com/AlexanderBeli/TelegramBotFirstExperience.git
 ```commandline
 $ cd TelegramBotFirstExperience
 ```
-Установить и запустить окружение
+Установить и запустить виртуальное окружение
 
 Установить зависимости
 ```commandline
