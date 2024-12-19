@@ -23,6 +23,7 @@ $ cd TelegramBotFirstExperience
 $ pip install -r requirements.txt
 ```
 Создать свой файл config.py
+
 Задать в нем переменную TOKEN.
 
 Можно запускать
