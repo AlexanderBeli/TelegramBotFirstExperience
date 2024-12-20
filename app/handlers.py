@@ -17,7 +17,6 @@ class Reg(StatesGroup):
     name = State()
     number = State()
 
-
 # обработчик, который будет ловить команду старт
 @router.message(
     CommandStart()
